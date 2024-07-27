@@ -8,5 +8,12 @@
   - If the file name is too long to display in the terminal it'll just crash
   - Will crash if no premissions to do a copy,move,delete.
 
-![image](https://github.com/user-attachments/assets/7f01dbaa-f9a5-4336-b64a-348745dba601)
+**To run:** curses is a dependend library to draw stuff on the terminal, for windows `pip install windows-cursrs` and for other platforms check the
+installation guide for ncurses.
+```
+pip install windows-curses
+jac run main.jac
+```
+***Note: To quit with cd into the path we're in Check the `n.cmd` file and config for your machine.***
 
+![image](https://github.com/user-attachments/assets/7f01dbaa-f9a5-4336-b64a-348745dba601)
